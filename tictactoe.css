@@ -1,0 +1,45 @@
+body{
+	background-color:#f4d9d0;
+}
+h4{
+	padding:1% 0 0 40%;
+	font-family:cursive;
+	font-size:50px;
+	font-weight:bolder;
+	color:black;	
+}
+h6{
+	padding:1% 0 0 42%;
+	font-family:cursive;
+	font-size:25px;
+	font-weight:bolder;
+	color:black;	
+}
+.container{
+	padding:5% 0 0 30%;
+	color:white;
+}
+
+#message{
+	padding:1% 0 0 35%;
+	font-family:cursive;
+	font-size:50px;
+	font-weight:bolder;
+	color:#c75b74;
+}
+.tile{
+	width:100px;
+	height:100px;
+	display:flex;
+	font-family:cursive;
+	font-size:75px;
+	font-weight:bolder;
+	justify-content:centre;
+	background-color:black;
+	border:solid 2px white;
+}
+.btn{
+	margin-left:14%;
+	margin-top:2%;
+	background-color:#982b1c;
+}
