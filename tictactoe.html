@@ -34,7 +34,7 @@
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script>
-	var move = 0;
+	var move = 1;
 	var play = true;
 	var board = ["", "", "", "", "", "", "", "", ""];
 	var winCombinations = [
@@ -53,7 +53,7 @@
 			var pos = $(this).data('pos');
 
 			if (board[pos] == "" && play) {
-				var player = (move % 2) == 0 ? "X" : "O";
+				var player = (move % 2) == 1 ? "X" : "O";
 				board[pos] = player;
 				$(this).text(player);
 				$(this).css("color", player == "X" ? "#61892f" : "#e8582f");
